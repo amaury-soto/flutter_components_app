@@ -41,11 +41,11 @@ class AppRoutes {
     'card': (BuildContext context) => const CardScreen(),
   }; */
 
-  static Map<String, Widget Function(BuildContext)> getAppRoutes(){
+  static Map<String, Widget Function(BuildContext)> getAppRoutes() {
     Map<String, Widget Function(BuildContext)> appRoutes = {};
 
-    for( final option in menuOptions ){
-      appRoutes.addAll({option.route: (BuildContext context) => option.screen });
+    for (final option in menuOptions) {
+      appRoutes.addAll({option.route: (BuildContext context) => option.screen});
     }
 
     return appRoutes;

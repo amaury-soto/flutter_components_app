@@ -9,5 +9,8 @@ class AppTheme {
       appBarTheme: const AppBarTheme(
         color: primary,
         elevation: 0,
-      ));
+      ),
+      //theme button
+      textButtonTheme:
+          TextButtonThemeData(style: TextButton.styleFrom(primary: primary)));
 }
