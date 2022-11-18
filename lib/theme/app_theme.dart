@@ -12,5 +12,17 @@ class AppTheme {
       ),
       //theme button
       textButtonTheme:
-          TextButtonThemeData(style: TextButton.styleFrom(primary: primary)));
+          TextButtonThemeData(style: TextButton.styleFrom(primary: primary)),
+
+      //FloatingActionButtons
+      floatingActionButtonTheme:
+          const FloatingActionButtonThemeData(backgroundColor: primary),
+
+      //ElevationButton
+      elevatedButtonTheme: ElevatedButtonThemeData(
+        style: ElevatedButton.styleFrom(
+            backgroundColor: Colors.indigo,
+            shape: const StadiumBorder(),
+            elevation: 0),
+      ));
 }
