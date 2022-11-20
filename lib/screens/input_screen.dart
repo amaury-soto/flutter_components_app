@@ -74,6 +74,12 @@ class InputScreen extends StatelessWidget {
               SizedBox(
                 height: 20,
               ),
+              ElevatedButton(
+                  onPressed: null,
+                  child: SizedBox(
+                      width: double.infinity,
+                     
+                      child: Center(child: Text('Save')))),
             ],
           ),
         ),
